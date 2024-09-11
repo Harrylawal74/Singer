@@ -39,21 +39,8 @@ public class Singer
         return !(!happy);
     }
 
+    //switches logical state to opposite
     public void changeMood() {
-        if(happy == true) {
-            happy = false;
-        }
-        else
-        {
-            happy = true;
-        }
-    }
-
-    public static void main(String[] args) {
-        Singer person1 = new Singer();
-
-
-
-        System.out.println(person1.isHappy());
+        happy = !happy;
     }
 }
