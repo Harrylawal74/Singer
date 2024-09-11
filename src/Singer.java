@@ -43,4 +43,10 @@ public class Singer
     public void changeMood() {
         happy = !happy;
     }
+
+    //Tests
+    public static void main(String[] args) {
+        Singer person = new Singer();
+        person.sing();
+    }
 }
